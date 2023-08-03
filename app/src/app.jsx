@@ -28,9 +28,6 @@ import NotFound from "./404";
 
 import { CssBaseline } from "@mui/material";
 
-import axios from "axios";
-axios.defaults.baseURL = import.meta.env.HRCOMAPIURL;
-
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />} errorElement={<NotFound />}>
