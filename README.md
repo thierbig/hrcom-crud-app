@@ -21,15 +21,15 @@ To install and run the backend API, follow these steps:
 ```bash
 cd api
 ```
-1. Install the necessary packages:
+2. Install the necessary packages:
 ```bash
 npm install
 ```
-2. Start the server:
+3. Start the server:
 ```bash
 node -r dotenv/config bin/www
 ```
-3. (Optional) To run the tests for the API, use the following command:
+4. (Optional) To run the tests for the API, use the following command:
 ```bash
 npm run test
 ```
@@ -42,15 +42,15 @@ To install and run the frontend app, follow these steps:
 ```bash
 cd app
 ```
-1. Install the necessary packages:
+2. Install the necessary packages:
 ```bash
 npm install
 ```
-2. Start the server:
+3. Start the server:
 ```bash
 npm run start
 ```
-3. (Optional) To run the tests for the App, use the following command:
+4. (Optional) To run the tests for the App, use the following command:
 ```bash
 npm run test
 ```
