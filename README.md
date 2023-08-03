@@ -50,7 +50,7 @@ npm install
 ```bash
 npm run start
 ```
-3. (Optional) To run the tests for the API, use the following command:
+3. (Optional) To run the tests for the App, use the following command:
 ```bash
 npm run test
 ```
