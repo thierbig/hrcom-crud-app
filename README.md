@@ -6,6 +6,12 @@ The HRCom Crud App is a simple application that handles real-life events. Users 
 
 The application also includes a suite of tests built with Jest.
 
+## Screenshots
+
+![Screenshot 1](./images-example/home.png)
+![Screenshot 2](./images-example/create-event.png)
+![Screenshot 3](./images-example/events.png)
+
 ## Installation
 
 ### Prerequisites
