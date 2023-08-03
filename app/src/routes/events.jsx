@@ -6,8 +6,7 @@ import EventItem from "../components/event-item";
 import { Link } from "react-router-dom";
 
 export const loader = async () => {
-  const res = await axios.get("http://localhost:4000/api/v1/events");
-  debugger
+  const res = await axios.get("http://localhost:4000/api/v1/events");  
   return res.data.data.events;
 };
 
@@ -25,8 +24,7 @@ const Events = () => {
       </Fab>
       <Grid spacing={2} container>
         {events && events.length > 0 ? (
-          events.map((event,index) => {
-            debugger;
+          events.map((event,index) => {            
             return <EventItem key={event.eventId} id={event.eventId} attributes={event} />;
           })
         ) : (
