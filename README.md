@@ -27,7 +27,7 @@ npm install
 ```
 2. Start the server:
 ```bash
-npm run start
+node -r dotenv/config bin/www
 ```
 3. (Optional) To run the tests for the API, use the following command:
 ```bash
