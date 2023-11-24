@@ -2,7 +2,7 @@
 
 ## Description
 
-The HRCom Crud App is a simple application that handles real-life events. It was coded just under 4 hours. Users can create and list events through a user-friendly interface. The backend is built with Express and serves as a REST API, while the frontend is developed using React Vite. It's a CRUD application, but with only Create and Read operations implemented.
+The HRCom Crud App is a simple application that handles real-life events. It was coded within just under 4 hours. Users can create and list events through a user-friendly interface. The backend is built with Express and serves as a REST API, while the frontend is developed using React Vite. It's a CRUD application, but with only Create and Read operations implemented.
 
 The application also includes a suite of tests built with Jest.
 
